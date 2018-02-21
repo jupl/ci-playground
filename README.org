@@ -1,0 +1,3 @@
+* Additional steps
+- Set up [[https://wiki.jenkins.io/display/JENKINS/Standard+Security+Setup][security for Jenkins]]
+- Configure [[https://docs.gitlab.com/ee/integration/jenkins.html][GitLab and Jenkins]] to [[https://github.com/jenkinsci/gitlab-plugin][integrate]]
