@@ -3,8 +3,9 @@ FROM jenkins/jenkins:2.89.4-alpine
 USER root
 
 # Install Docker CLI
-RUN curl -sSL -o /bin/docker https://get.docker.io/builds/Linux/x86_64/docker-latest
-RUN chmod +x /bin/docker
+RUN apk update && apk add docker sudo
+RUN echo 'jenkins ALL=NOPASSWD: /usr/bin/docker' >> /etc/sudoers
+ADD docker /usr/local/bin/docker
 
 USER jenkins
 
