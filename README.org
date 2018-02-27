@@ -1,3 +1,4 @@
-* Additional steps
+* Additional steps/notes
 - Set up [[https://wiki.jenkins.io/display/JENKINS/Standard+Security+Setup][security for Jenkins]]
 - Configure [[https://docs.gitlab.com/ee/integration/jenkins.html][GitLab and Jenkins]] to [[https://github.com/jenkinsci/gitlab-plugin][integrate]]
+- If using Docker outside of Docker, remember what proper URLs should be used based on context
